@@ -256,3 +256,5 @@ function copyDir(src, dest) {
     copy(srcFile, destFile);
   }
 }
+
+init().catch((e) => console.error(e));
