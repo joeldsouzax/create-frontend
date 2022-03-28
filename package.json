@@ -6,7 +6,6 @@
   "author": "Joel D'Souza",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^17.0.23",
     "prettier": "^2.6.1"
   },
   "dependencies": {
