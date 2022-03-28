@@ -2,11 +2,23 @@
   "name": "create-frontend",
   "version": "1.0.0",
   "description": "frontend creation script",
-  "main": "index.ts",
+  "main": "index.js",
   "author": "Joel D'Souza",
   "license": "MIT",
+  "bin": {
+    "create-frontend": "index.js",
+    "cfe": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
   "devDependencies": {
     "prettier": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldsouzax/create-frontend"
   },
   "dependencies": {
     "kolorist": "^1.5.1",
