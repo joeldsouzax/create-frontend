@@ -13,16 +13,19 @@
     "index.js",
     "template-*"
   ],
-  "devDependencies": {
-    "prettier": "^2.6.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joeldsouzax/create-frontend"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   },
   "dependencies": {
     "kolorist": "^1.5.1",
     "minimist": "^1.2.6",
     "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.1"
   }
 }
