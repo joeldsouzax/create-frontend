@@ -1,5 +1,5 @@
 {
-  "name": "create-frontend",
+  "name": "@joeldsouzax/create-frontend",
   "version": "1.0.0",
   "description": "frontend creation script",
   "main": "index.js",
