@@ -36,7 +36,7 @@ const TEMPLATES = PROJECTTYPES.map(
 const renameFiles = {
   _gitignore: '.gitignore',
   _prettierignore: '.prettierignore',
-  ['_pretterrc.json']: '.prettierrc.json',
+  '_pretterrc.json': '.prettierrc.json',
 };
 
 async function init() {
@@ -162,7 +162,7 @@ async function init() {
 
   const files = fs.readdirSync(templateDir);
 
-  for (const file in files.filter((f) => f !== 'package.json')) {
+  for (const file of files.filter((f) => f !== 'package.json')) {
     write(file);
   }
 
