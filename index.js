@@ -36,7 +36,7 @@ const TEMPLATES = PROJECTTYPES.map(
 const renameFiles = {
   _gitignore: '.gitignore',
   _prettierignore: '.prettierignore',
-  '_pretterrc.json': '.prettierrc.json',
+  _eslintignore: '.eslintignore',
 };
 
 async function init() {
