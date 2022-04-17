@@ -1,6 +1,6 @@
 {
   "name": "@joeldsouzax/create-frontend",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "frontend creation script",
   "main": "index.js",
   "author": "Joel D'Souza",
